@@ -1,7 +1,9 @@
 Module personnalisé, exemple: tools
 Module natif (core, built-in), exemple: random, platform, os
 Module communautaire: pypi.org
+
 pip: gestionnaire de packages
+pip install [moduleName]
 
 Langage procédural: C
 Langage orienté objet: Java, C++
@@ -19,7 +21,7 @@ M1 <=> M2 #machine
 
 HTTP (protocole de communication, haut niveau 7)
 
-Serveur HTTP (Serveur Web) <=> Chrome
+Serveur HTTP (Serveur Web) <=> Client HTTP
 
 Apache est un serveur HTTP; Chrome est un client HTTP, mais un client HTTP n'est pas forcemet un navigateur web
 HTTP: protocole
@@ -28,7 +30,7 @@ http://httpstatuses.com = Pour avoir tous les codes des statuses http
 
 Serveur HTTP (Serveur Web) <=> Client HTTP
 
-Apache <=> Chrome
+Apache OU Nginx <=> Chrome
 
 Méthodes HTTP : GET, POST
 
@@ -48,5 +50,32 @@ Response
 
 Webdev
   Front (end): HTML, CSS, JavaScript (react, angular, vuejs)
-  Back (end): Java, PHP, Python, JavaScript
+  Back (end): Java, PHP, Python, JavaScript, ASP.NET, Ruby, etc.
   Full-Stack: Front + Back
+
+  Dev
+From scratch (on part de 0, pas de modules permettant l'accélération du dev)
+Framework: booster, un certain nombre de composant déjà fait/testés
+  PHP: Symfony, Laravel
+  Java: Spring
+  Python: Django, Flask
+  JavaScript: Express
+  Ruby: Ruby-on-Rails
+
+
+Response
+  texte brut
+  texte formaté
+    html => UI (User Interface)
+    xml
+    json => interropérabilité (échange de données entre applications)
+  binaires (image, pdf)
+
+
+API = Application Programming Interface
+
+Exemple: Flask dispose d'une API, expose une API = liste de fonctionnalités offertes
+
+API REST = 
+spécifique aux services web, 
+fournit un ensemble de routes = endpoints, CRUD: Create Read Update Delete

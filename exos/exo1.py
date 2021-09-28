@@ -25,8 +25,8 @@ else:
 
 
 ''' 
-Autre correction avec d'autres notions:
-    # votre code ici
+Correction avec d'autres notions:
+   
 try:  
   playerInput = int(input("Saisir un chiffre: "))
 except:

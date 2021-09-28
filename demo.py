@@ -2,6 +2,8 @@ import platform, os
 import tools
 import mypackage.subpackage.subdemo as subd
 from colorama import Fore, Style
+import time
+import sys
 
 # print(platform.processor())
 # print(platform.system())
@@ -38,7 +40,19 @@ from colorama import Fore, Style
 #print(Fore.GREEN + 'Bravo !' + Style.RESET_ALL)
 #print('Tu es le meilleur !')
 
-s = "n\n\n<!DOnCTYPE n"
+# s = "n\n\n<!DOnCTYPE n"
 
-s2 = s.replace("n", "x").replace("\n", "---")
-print(s2)
+# s2 = s.replace("n", "x").replace("\n", "---")
+# print(s2)
+
+# print("Bon...")
+# time.sleep(10)
+# print("...jour")
+
+# print(sys.argv)  # agv, liste d'arguments de la commande
+# for a in sys.argv:
+#   print(a)
+
+while True:
+  print("Coucou")
+  time.sleep(5)
